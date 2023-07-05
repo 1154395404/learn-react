@@ -9,7 +9,10 @@ import './index.css'
 // import App from './App/5.redux使用完成一个计数器/index'
 // import App from './App/6.redux使用完成一个计数器-完整版/index'
 // import App from './App/7.测试ref'
-import App from './App/8.redux使用完成一个计数器-异步action版'
+// import App from './App/8.redux使用完成一个计数器-异步action版'
+// import App from './App/9.react-redux'
+// import App from './App/10.react-redux多组件多reducer共享'
+import App from './App/12.RTK'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
