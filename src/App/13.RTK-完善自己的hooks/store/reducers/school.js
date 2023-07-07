@@ -29,15 +29,4 @@ const schoolSlice = createSlice(
 
 
 export const {actions: schoolActions} = schoolSlice
-export default schoolSlice.reducer
-
-//todo  hooks 自己封装的 省去了引入 useDispatch 与 action 最主要不必引入action
-export const useDispatch = () => {
-    const dispatch = useOriginDispatch()
-    const changeStateMap = {}
-    for (const actionKey in schoolActions) {
-        const action = schoolActions[actionKey]
-        changeStateMap[actionKey] = (payload) => dispatch(action(payload))
-    }
-    return changeStateMap
-}
+export default schoolSlice

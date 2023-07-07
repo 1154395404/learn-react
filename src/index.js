@@ -12,7 +12,8 @@ import './index.css'
 // import App from './App/8.redux使用完成一个计数器-异步action版'
 // import App from './App/9.react-redux'
 // import App from './App/10.react-redux多组件多reducer共享'
-import App from './App/12.RTK'
+// import App from './App/12.RTK'
+import App from './App/13.RTK-完善自己的hooks'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

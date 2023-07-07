@@ -28,4 +28,4 @@ const studentSlice = createSlice(
 
 export const {actions:studentActions} = studentSlice
 
-export default studentSlice.reducer
+export default studentSlice
